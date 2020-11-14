@@ -21,6 +21,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
    <table class="table table-primary table-striped">
         <tr>
+            <p class="text-white">
             <th width="100">
                 <div align="center">Name</div>
             </th>
@@ -33,6 +34,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
             <th width="150">
                 <div align="center">Action </div>
             </th>
+            </p>
         </tr>
         <?php
 while($Result = mysqli_fetch_array($res))
