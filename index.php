@@ -22,16 +22,16 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
    <table class="table table-primary table table-boarded">
         <tr>
             <p class="text-white">
-            <th width="100">
+            <th width="20%">
                 <div align="center"><h4><p class="text-white">Name </p></h4></div>
             </th>
-            <th width="350">
+            <th width="35%">
                 <div align="center"><h4><p class="text-white">Comment </p></h4></div>
             </th>
-            <th width="150">
+            <th width="30%">
                 <div align="center"><h4><p class="text-white">Link </p></h4></div>
             </th>
-            <th width="100">
+            <th width="15%">
                 <div align="center"><h4><p class="text-white">Action </p></h4></div>
             </th>
         </tr>
