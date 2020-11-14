@@ -31,7 +31,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
             <th width="150">
                 <div align="center"><h4><p class="text-white">Link </p></h4></div>
             </th>
-            <th width="50">
+            <th width="100">
                 <div align="center"><h4><p class="text-white">Action </p></h4></div>
             </th>
         </tr>
