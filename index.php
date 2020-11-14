@@ -26,13 +26,13 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
                 <div align="center"><p class="text-white">Name</p></div>
             </th>
             <th width="350">
-                <div align="center">Comment </div>
+                <div align="center"><p class="text-white">Comment</p> </div>
             </th>
             <th width="150">
-                <div align="center">Link </div>
+                <div align="center"><p class="text-white">Link </p></div>
             </th>
             <th width="150">
-                <div align="center">Action </div>
+                <div align="center"><p class="text-white">Action </p></div>
             </th>
         </tr>
         <?php
