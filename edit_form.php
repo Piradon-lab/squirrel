@@ -21,7 +21,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
- <body style="background-color:#303030;">
+ <body style="background-color:#6ac5fe;">
     <h2 style='text-align:center; color:white;'>Edit form</h2>
     <div class="container">
 	<form class="form-horizontal" action = "edit.php?edit_id=<?php echo $edit_id; ?>" method = "post" id="CommentForm" >
