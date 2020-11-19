@@ -57,7 +57,7 @@ while($Result = mysqli_fetch_array($res))
     <?php
 mysqli_close($conn);
 ?>
-<center><a href = "form.php"><button type="button" class="btn btn-info">Add</button></a></center>
+<center><a href = "form.php"><button type="button" class="btn btn-secondary">Add</button></a></center>
 </body>
 
 </html>
