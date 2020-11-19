@@ -28,7 +28,6 @@
 
         if (mysqli_query($conn, $sql)) {
             echo "<h2 style='text-align:center; color:white;'>Record has been update</h2>";
-            <img src="https://image.flaticon.com/icons/png/128/1828/1828651.png"/>
           } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
           }
