@@ -23,7 +23,7 @@
 		 <div class="form-group form-group-lg">
 		    <label class="col-sm-2 control-label" for="comment"><h3 style='color:white;'>Comment:</h3></label>
 		    <div class="col-sm-10">
-		      <textarea rows="10" col="20" class="form-control" name = "comment" id="comment" placeholder="Enter Comment"></textarea>
+		      <br><input type="text" class="form-control" name="Price" id="Price" placeholder="Enter Price">
 		    </div>
 		  </div>
 		<div class="form-group form-group-sm">
